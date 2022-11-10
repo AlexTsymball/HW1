@@ -8,12 +8,6 @@ import java.util.Comparator;
  * відсортувавши їх за спаданням. Зробити unit-тести для цього методу.
  */
 public class Task1 {
-    public static void main(String[] args) {
-        int[] arr = new int[]{1, 2, 4, -5, 11, 54, -6, -334, 234, 0};
-        Task1 task1 = new Task1();
-        int[] arrResult = task1.arrMoreThanZeroReverseOrder(arr);
-        System.out.println(Arrays.toString(arrResult));
-    }
 
     public int[] arrMoreThanZeroReverseOrder(int[] arrayOfInt) {
 
